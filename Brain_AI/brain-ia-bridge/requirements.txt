@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+numpy>=1.26.0
+networkx>=3.2
+scipy>=1.12.0
+=======
+# brain-ia-bridge runtime dependencies
+# All core functionality uses Python standard library only.
+# Add external packages below when integrating the real Neurosity SDK.
+
+# Example (uncomment when using the real SDK):
+# neurosity==3.x.x
+pytest==8.3.5
+pybind11==2.13.6
+setuptools==80.9.0
+>>>>>>> 531fc65123544157015ba2046c143129823abab2
