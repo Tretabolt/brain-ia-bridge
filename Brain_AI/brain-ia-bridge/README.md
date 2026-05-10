@@ -1,11 +1,5 @@
 # brain-ia-bridge
 
-<<<<<<< HEAD
-Bridge de integração entre EEG (Crown/Neurosity), HyperBitnet e TRIBE para experimentos de biofeedback e decodificação de intenção em tempo real.
-
-## Objetivo
-Processar sinais cerebrais através de uma versão adaptativa de thresholds, utilizando modelos inspirados em topologia de redes lógicas (HyperBitnet) e extraindo comandos viáveis para sistemas externos via integração TRIBE.
-=======
 Bridge integrating EEG (Crown / Neurosity), HyperBitnet and TRIBE for
 biofeedback experiments and real-time intent decoding.
 
@@ -16,26 +10,6 @@ Neuroadaptive MVP pipeline:
 ```
 EEG → features (focus / calm / gamma) → adaptive threshold → HyperBitnet → TRIBE
 ```
-
-## If the repository looks "empty"
-
-If you are on `main` and still do not see scaffold files (even when you see
-"14 files changed" in the PR), the changes are still on a feature branch and
-**have not been merged into `main` yet**.
-
-Quick checklist:
-
-1. Open the scaffold PR on GitHub and confirm it is **Merged**.
-2. In your local clone, run:
-   ```bash
-   git checkout main
-   git pull origin main
-   ```
-3. If you want to inspect the PR branch before merge:
-   ```bash
-   git fetch origin
-   git checkout copilot/initialize-repository-with-mvp-scaffold
-   ```
 
 ## Repository Structure
 
@@ -199,4 +173,3 @@ This project is experimental and educational.
 - Do **not** use for clinical decision-making.
 - Do **not** use for controlling safety-critical devices without formal
   validation and safety protocols.
->>>>>>> 531fc65123544157015ba2046c143129823abab2
